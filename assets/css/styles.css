@@ -1,0 +1,33 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.list__link {
+    min-width: 300px;
+    color: #111827;
+    font-weight: 500;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.list__link:hover {
+    border-color: #67686b;
+}
