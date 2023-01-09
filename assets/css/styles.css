@@ -8,6 +8,11 @@ main {
     text-align: center;
 }
 
+h1 {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
 .list {
     display: flex;
     flex-direction: column;
