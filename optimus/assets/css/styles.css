@@ -61,7 +61,7 @@ header {
     border-radius: 0.5rem;
 }
 
-/*------------- TEXT BOX AND METRICS -------------*/
+/*------------- TEXT BOX -------------*/
 
 .section-box {
     width: 100%;
@@ -108,6 +108,97 @@ header {
     padding: 4px 12px
 }
 
+/*------------- ABOUT -------------*/
+
+.about {
+    margin: 6rem 0;
+}
+
+.about__metrics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 6rem;
+}
+
+.about__metrics-card {
+    max-width: 280px;
+    flex-grow: 1;
+    text-align: start;
+}
+
+.about__metrics-card-title {
+    font-weight: 600;
+    font-size: 3.8rem;
+    color: var(--main-color);
+}
+
+.about__metrics-card-subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color-black);
+    margin: 1rem 0 0.5rem 0;
+}
+
+.about__metrics-card-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--text-color-gray);
+}
+
+/*------------- JOBS -------------*/
+
+.jobs__image {
+    margin: 4rem 0; 
+}
+
+.jobs__list {
+    max-width: 768px;
+    width: 96%;
+    text-align: start;
+}
+
+.jobs__list-title {
+    margin: 2rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--text-color-black);
+}
+
+.jobs__list-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--stroke-color);
+    border-radius: 1rem;
+}
+
+.jobs__list-card-title {
+    grid-column: span 2;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text-color-black);
+}
+
+.jobs__list-card-period,
+.jobs__list-card-salary {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-color-gray);
+}
+
+.jobs__list-card-period {
+    grid-column: 1;
+
+}
+
+.jobs__list-card-salary {
+    grid-column: 2;
+}
+
 /*------------- COLLABORATORS -------------*/
 
 .collaborators {
@@ -134,11 +225,11 @@ footer {
     background-color: var(--background-color-gray);
 }
 
-.section-box__footer-form {
+.footer__form {
     padding: 2.5rem 0 2rem 0;
 }
 
-.section-box__footer-form-input {
+.footer__form-input {
     padding: 0.8rem 1.2rem;
     border-radius: 0.5rem;
     color: var(--text-color-gray);
@@ -147,7 +238,7 @@ footer {
     border: 1px solid var(--stroke-color);
 }
 
-.section-box__footer-form-button{
+.footer__form-button{
     background-color: var(--main-color);
     color: #FFFFFF;
     padding: 0.8rem 1.2rem;
@@ -156,7 +247,7 @@ footer {
     cursor: pointer;                
 }
 
-.section-box__footer-copyright {
+.footer__copyright {
     font-size: 1rem;
     font-weight: 400;
     color: var(--text-color-light-gray);
