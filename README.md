@@ -9,3 +9,5 @@ Templates criados ou copiados por mim para treinar minhas hard skills de front-e
 > HZC: site de barbearia
 
 > Optimus Tech: landing page
+
+> LinkedIn: Cópia da página de perfil
