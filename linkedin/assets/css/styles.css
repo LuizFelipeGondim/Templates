@@ -1,0 +1,11 @@
+:root{
+    --background-color-black: #000;
+    --background-card-color-black: #1d2226;
+    --background-card-color-active: hsla(0, 0%, 100%, 0.12);
+    --text-color-main: hsla(0, 0%, 100%, 0.9);
+    --text-color-gray: hsla(0, 0%, 100%, 0.6);
+    --text-color-black: hsla(0, 0%, 0%, 0.75);
+    --input-color: #38434F;
+    --primary: #70b5f9;
+    --positive: #3ec786;
+  }
