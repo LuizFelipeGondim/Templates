@@ -1,6 +1,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #16161d;
+    background-color: #e5e7eb;
+    min-height: 100vh;
 }
 
 main {
@@ -12,7 +13,7 @@ main {
 h1 {
     padding: 30px 0;
     font-size: 30px;
-    color: #ffffff;
+    color: #374151;
 }
 
 .list {
@@ -24,11 +25,82 @@ h1 {
     width: 100%;
 }
 
+/* noturn mode switch */
+
+.list__switch-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.list__switch-svg {
+    fill: #000000;
+}
+
+.list__switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 28px;
+}
+
+.list__switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #8e96ab;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #cccccc;
+}
+
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* links */
+
 .list__link {
     min-width: 300px;
-    color: #ffffff;
+    color: #374151;
     font-weight: 500;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #374151;
     border-radius: 8px;
     padding: 0.5rem;
     text-decoration: none;
@@ -38,3 +110,4 @@ h1 {
 .list__link:hover {
     border-color: #67686b;
 }
+
