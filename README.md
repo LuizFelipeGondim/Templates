@@ -6,8 +6,12 @@ Templates criados ou copiados por mim para treinar minhas hard skills de front-e
 
 ## Templates construídos:
 
-> HZC: site de barbearia
+> HZC: Site de barbearia
 
 > Optimus Tech: landing page
 
 > LinkedIn: Cópia da página de perfil
+
+> Habits: Site para formar bons hábitos
+
+> Robotron 2000: Monte seu robô - Alura 
